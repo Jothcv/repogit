@@ -1,16 +1,31 @@
 package caja1;
 public class bicicleta {
-    String marca;
-    int tamaño;
-    int cambioVelocidad;
+    private String marca;
+    private int tamaño;
 
-    public bicicleta(){
-
-    }
 
     //cionstructor
     public bicicleta(String marca, int tamaño) {
         this.marca = marca;
+        this.tamaño = tamaño;
+    }
+
+
+    //ahora los metodos
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public int getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(int tamaño) {
         this.tamaño = tamaño;
     }
 
